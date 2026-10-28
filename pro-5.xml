@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<books>
+    <book>
+        <title>Java Programming</title>
+        <author>James Gosling</author>
+        <price>500</price>
+    </book>
+
+    <book>
+        <title>Python Programming</title>
+        <author>Guido van Rossum</author>
+        <price>450</price>
+    </book>
+
+    <book>
+        <title>Web Technology</title>
+        <author>Jon Duckett</author>
+        <price>600</price>
+    </book>
+</books>
+
+
+<style.css
+books {
+    display: block;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+book {
+    display: block;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 15px;
+}
+
+title, author, price {
+    display: block;
+    color: darkblue;
+    font-size: 20px;
+    margin: 5px;
+}
